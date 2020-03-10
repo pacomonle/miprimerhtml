@@ -1,0 +1,30 @@
+* {box-sizing: border-box;}
+
+.wrapper  div {
+    max-width: 100%;
+    margin: 5px;
+    
+    border: 2px solid rgb(233,171,88);
+    border-radius: 5px;
+    background-color: rgba(233,171,88,.5);
+    padding: 1em;
+    color: #d9480f;
+
+
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 10px;
+    grid-auto-rows: minmax(1200px, auto);
+  }
+
+  .one {
+    grid-column: 1 ;
+    grid-row: 1;
+    
+  }
+  .two { 
+    grid-column: 2 ;
+    grid-row: 2 ;
+    
+  }
