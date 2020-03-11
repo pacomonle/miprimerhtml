@@ -1,29 +1,97 @@
 * {box-sizing: border-box;}
 
-.wrapper  div {
+.wrapper {
     max-width: 100%;
     margin: 5px;
     
-    border: 2px solid rgb(233,171,88);
-    border-radius: 5px;
-    background-color: rgba(233,171,88,.5);
-    padding: 1em;
-    color: #d9480f;
-
-
-
+    
     display: grid;
     grid-template-columns: 100%;
     grid-gap: 10px;
-    grid-auto-rows: minmax(1200px, auto);
+    grid-auto-rows: minmax(600px, auto);
   }
 
-  .one {
+  .containerone {
     grid-column: 1 ;
     grid-row: 1;
+    background-image:url(/images/Diseñoportofolio.png);
+    width:  100%;
+    height: 900px;
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 20% 60% 20;
+    grid-template-rows: 200px 200px;
+    text-align:center;
+  }
+
+  .logo{
+    grid-column: 1 ;
+    grid-row: 1;
+    width:  275px;
+    height: 125px;
+    margin: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#C0C0C0 ;
+    font: bold;
+    -webkit-text-stroke: 2px black;
+
+  }
+  .busqueda{
+    grid-column: 3 ;
+    grid-row: 1;
+    width:  240px;
+    height: 45px;
+    margin: 5px;
+    margin-left:400px;
+    background-color: rgb(250, 249, 246);
+    padding-left: 5px;
+    padding-bottom: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: bold;
+  }
+
+ .mainone{
+  grid-column: 2 ;
+  grid-row: 2;
+  width:  100%;
+  height: 325px;
+  
+  margin-top: 40px;
+  margin-left: 180px;
+  
+  
+}
+  
+
+  .text{
+    color: rgb(10, 6, 46) ;
+    font-weight: 900;
+    background-color: transparent;
+    margin-top: -310px;
+    margin-left: -25px;
+    -webkit-text-stroke: 0.25px rgb(4, 97, 105);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    z-index: 1;
+  }
+  
+
+  .background{
+    width:  150%;
+    height: 325px;
+    margin-top: 15px;
+    margin-left: -75px;
+    background-color: aliceblue;
     
   }
-  .two { 
+  
+
+  .opacity{
+    opacity: 0.4;
+  }
+
+
+  .containertwo { 
     grid-column: 2 ;
     grid-row: 2 ;
     
