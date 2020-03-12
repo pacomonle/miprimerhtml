@@ -69,6 +69,15 @@
   
 }
   
+  .mainone:hover{
+
+    transform: scale(1.5);
+    background-image:url(/images/template7.png);
+    background-size: 100% 100%;
+  }
+
+
+
 
   .text{
     color: rgb(10, 6, 46) ;
